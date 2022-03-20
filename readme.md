@@ -1,6 +1,6 @@
 # Create stack via cloud formation
 ```shell
-$ aws cloudformation deploy --template-file template.yaml --stack-name <stack name> -capabilities CAPABILITY_NAMED_IAM
+$ aws cloudformation deploy --template-file template.yaml --stack-name <stack name> --capabilities CAPABILITY_NAMED_IAM
 ```
 
 ```shell
